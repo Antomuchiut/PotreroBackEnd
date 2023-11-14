@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fce4ec; /* Tonalidad rosa claro */
+    margin: 0;
+}
+
+.header {
+    background-color: #a74c6a; /* Rosa */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 15%;
+    height: auto;
+}
+
+.login-container {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff; /* Blanco */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #e91e63; /* Rosa */
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #830f3d; /* Tonalidad rosa más oscuro */
+}
